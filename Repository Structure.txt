@@ -1,0 +1,21 @@
+mobile-store-system/
+├── backend/
+│   ├── Dockerfile
+│   ├── requirements.txt
+│   ├── manage.py
+│   ├── core/                  # Django project config
+│   └── api/                   # Models, Serializers, Views (UUID-based)
+├── frontend/
+│   ├── package.json
+│   ├── vite.config.js         # React plugin configured
+│   ├── index.html
+│   └── src/
+├── desktop/
+│   ├── requirements.txt
+│   ├── main.py                # PyQt entry point
+│   ├── keys/public_key.pem    # RSA Public key only
+│   ├── storage/db.py          # SQLite handler (Sync queue)
+│   └── ui/
+├── docker-compose.yml
+├── ARCHITECTURE.md
+└── README.md
